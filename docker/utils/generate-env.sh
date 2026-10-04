@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# generate the .env file read by docker compose, using the real values of the host
+# generate the .env file read by docker compose
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -22,11 +22,12 @@ if [ -f .env ]; then
     echo "Overwriting existing .env file"
 fi
 
-# the heredoc delimiter must be unquoted so that the variables get expanded
+# .env file creation
 cat > .env <<EOF
 HOST_UID=${HOST_UID}
 HOST_GID=${HOST_GID}
 RENDER_GID=${RENDER_GID}
+CONTAINER_USER=ros
 EOF
 
 echo ".env generated in $(pwd):"

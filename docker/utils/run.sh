@@ -9,4 +9,4 @@ fi
 # allow containers to draw windows on the host display
 xhost +local:docker
 docker compose up -d
-echo "Container started. Open a terminal using the script new-terminal.sh"
+echo "Container started. Open a terminal using the script terminal.sh"
