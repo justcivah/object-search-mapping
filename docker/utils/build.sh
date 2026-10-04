@@ -2,5 +2,5 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-./scripts/generate-env.sh
+./utils/generate-env.sh
 docker compose build
