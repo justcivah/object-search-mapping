@@ -1,4 +1,11 @@
+.vscode/*
+
 docker/.env
+
 build/
 install/
 log/
+
+# all files in this directory are automatically generated starting from robot.yaml
+clearpath/*
+!clearpath/robot.yaml
