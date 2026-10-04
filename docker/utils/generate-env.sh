@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # generate the .env file read by docker compose, using the real values of the host
 set -euo pipefail
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 
 HOST_UID="$(id -u)"
 HOST_GID="$(id -g)"
