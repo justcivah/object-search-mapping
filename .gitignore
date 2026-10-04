@@ -1,0 +1,4 @@
+docker/.env
+build/
+install/
+log/
