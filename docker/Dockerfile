@@ -54,5 +54,6 @@ RUN set -eux; \
 
 USER $USERNAME
 WORKDIR /home/$USERNAME/ros2_ws
-RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc \
+RUN touch ~/.sudo_as_admin_successful \
+    && echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc \
     && echo "[ -f ~/ros2_ws/install/setup.bash ] && source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
