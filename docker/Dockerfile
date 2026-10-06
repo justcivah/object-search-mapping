@@ -2,7 +2,6 @@ FROM osrf/ros:humble-desktop
 ARG USERNAME=ros
 ARG USER_UID=1000
 ARG USER_GID=1000
-ARG RENDER_GID=992
 
 # repository OSRF and ignition fortress
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -33,11 +32,25 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ros-humble-clearpath-simulator \
     && rm -rf /var/lib/apt/lists/*
 
-RUN groupadd --gid $USER_GID $USERNAME \
-    && groupadd --gid $RENDER_GID render-host \
-    && useradd --uid $USER_UID --gid $USER_GID -m -s /bin/bash $USERNAME \
-    && usermod -aG video,render-host $USERNAME \
-    && echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME
+# create the user with the host uid/gid
+RUN set -eux; \
+    # if a group with that GID does not exist create it
+    if ! getent group "$USER_GID" > /dev/null; then \
+        groupadd --gid "$USER_GID" "$USERNAME"; \
+    fi; \
+    # check if a user already had that UID
+    # if it exist, existing_user will contain that username, otherwise an empty string
+    existing_user="$(getent passwd "$USER_UID" | cut -d: -f1 || true)"; \
+    # if existing_user it not empty, rename the current user to USERNAME
+    if [ -n "$existing_user" ]; then \
+        usermod --login "$USERNAME" --home "/home/$USERNAME" --move-home \
+            --gid "$USER_GID" --shell /bin/bash "$existing_user"; \
+    # otherwise if existing_user is empty, just create a new user
+    else \
+        useradd --uid "$USER_UID" --gid "$USER_GID" -m -s /bin/bash "$USERNAME"; \
+    fi; \
+    usermod -aG video "$USERNAME"; \
+    echo "$USERNAME ALL=(root) NOPASSWD:ALL" > "/etc/sudoers.d/$USERNAME"
 
 USER $USERNAME
 WORKDIR /home/$USERNAME/ros2_ws

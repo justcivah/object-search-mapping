@@ -3,17 +3,31 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-HOST_UID="$(id -u)"
-HOST_GID="$(id -g)"
-
-# gid of the group that owns the gpu render device in /dev/dri
-# try the group name first, then fall back to the owner of the device
-RENDER_GID="$(getent group render | cut -d: -f3 || true)"
-if [ -z "$RENDER_GID" ] && [ -e /dev/dri/renderD128 ]; then
-    RENDER_GID="$(stat -c '%g' /dev/dri/renderD128)"
+# when launched with sudo use the ids of the real user, not root
+HOST_UID="${SUDO_UID:-$(id -u)}"
+HOST_GID="${SUDO_GID:-$(id -g)}"
+if [ "$HOST_UID" -eq 0 ]; then
+    echo "Error: run this script as your normal user, not as root" >&2
+    exit 1
 fi
-if [ -z "$RENDER_GID" ]; then
-    echo "Error: unable to determine the gid of the render group" >&2
+
+# gid of the group owning a gpu device in /dev/dri
+# the owner of the device is used first since the group name differs between distros
+device_gid() {
+    local pattern="$1" group="$2" dev
+    for dev in /dev/dri/$pattern; do
+        if [ -e "$dev" ]; then
+            stat -c '%g' "$dev"
+            return
+        fi
+    done
+    getent group "$group" | cut -d: -f3 || true
+}
+
+RENDER_GID="$(device_gid 'renderD*' render)"
+VIDEO_GID="$(device_gid 'card*' video)"
+if [ -z "$RENDER_GID" ] || [ -z "$VIDEO_GID" ]; then
+    echo "Error: unable to determine the gid of the render/video groups" >&2
     echo "Check that /dev/dri exists and try again" >&2
     exit 1
 fi
@@ -23,12 +37,13 @@ if [ -f .env ]; then
 fi
 
 # .env file creation
-cat > .env <<EOF
+cat > .env <<EOT
 HOST_UID=${HOST_UID}
 HOST_GID=${HOST_GID}
 RENDER_GID=${RENDER_GID}
+VIDEO_GID=${VIDEO_GID}
 CONTAINER_USER=ros
-EOF
+EOT
 
 echo ".env generated in $(pwd):"
 cat .env

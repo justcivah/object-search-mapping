@@ -6,7 +6,6 @@ services:
                 USERNAME: ${CONTAINER_USER:-ros}
                 USER_UID: ${HOST_UID:-1000}
                 USER_GID: ${HOST_GID:-1000}
-                RENDER_GID: ${RENDER_GID:-992}
         image: ros2-humble
         container_name: ros2-humble
         network_mode: host
@@ -15,14 +14,16 @@ services:
         tty: true
         environment:
             - DISPLAY=${DISPLAY}
+            - XAUTHORITY=/tmp/.Xauthority
             - QT_X11_NO_MITSHM=1
             - QT_QPA_PLATFORM=xcb
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix
+            - ${XAUTH_FILE:-/dev/null}:/tmp/.Xauthority:ro
             - ../ros2_ws:/home/${CONTAINER_USER:-ros}/ros2_ws
             - ../clearpath:/home/${CONTAINER_USER:-ros}/clearpath
         devices:
             - /dev/dri:/dev/dri
         group_add:
-            - video
-            - "${RENDER_GID}"
+            - "${VIDEO_GID:-44}"
+            - "${RENDER_GID:-992}"
