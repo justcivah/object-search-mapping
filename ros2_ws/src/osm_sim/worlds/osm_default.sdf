@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='ASCII'?>
-<sdf version='1.7'>
+<sdf version='1.9'>
   <world name='osm_default'>
     <physics type="ode">
       <max_step_size>0.003</max_step_size>
@@ -8,14 +8,16 @@
     <plugin name='ignition::gazebo::systems::Physics' filename='libignition-gazebo-physics-system.so'/>
     <plugin name='ignition::gazebo::systems::UserCommands' filename='libignition-gazebo-user-commands-system.so'/>
     <plugin name='ignition::gazebo::systems::SceneBroadcaster' filename='libignition-gazebo-scene-broadcaster-system.so'/>
-    <plugin name="ignition::gazebo::systems::Sensors" filename="libignition-gazebo-sensors-system.so">
+    
+    <!-- Sensors system omitted: the Kinova arm xacro loads its own Sensors system in sim, and two of them crash ogre2. If the arm is removed, restore it here. -->
+    <!-- <plugin name="ignition::gazebo::systems::Sensors" filename="libignition-gazebo-sensors-system.so">
       <render_engine>ogre2</render_engine>
-    </plugin>
+    </plugin> -->
     <plugin name="ignition::gazebo::systems::Imu" filename="libignition-gazebo-imu-system.so"/>
     <plugin name="ignition::gazebo::systems::NavSat" filename="libignition-gazebo-navsat-system.so"/>
 
     <scene>
-      <ambient>1 1 1 1</ambient>
+      <ambient>0.6 0.6 0.6 1</ambient>
       <background>0.3 0.7 0.9 1</background>
       <shadows>0</shadows>
       <grid>false</grid>
