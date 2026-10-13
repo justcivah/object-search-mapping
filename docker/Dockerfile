@@ -32,6 +32,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ros-humble-clearpath-simulator \
     && rm -rf /var/lib/apt/lists/*
 
+# teleop, slam, nav2, octomap
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        ros-humble-teleop-twist-keyboard \
+        ros-humble-slam-toolbox \
+        ros-humble-navigation2 \
+        ros-humble-nav2-bringup
+
+
 # create the user with the host uid/gid
 RUN set -eux; \
     # if a group with that GID does not exist create it
