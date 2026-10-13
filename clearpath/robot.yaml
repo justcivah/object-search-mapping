@@ -53,7 +53,7 @@ sensors:
       urdf_enabled: true
       launch_enabled: true
       parent: top_plate_front_mount
-      xyz: [0.0, 0.0, 0.0]
+      xyz: [-0.04, 0.0, 0.0]
       rpy: [0.0, 0.0, 0.0]
       ros_parameters:
         urg_node:
