@@ -20,7 +20,7 @@ platform:
 
 manipulators:
   moveit:
-    enable: false
+    enable: true
   arms:
     - model: kinova_gen3_6dof
       parent: top_plate_default_mount
