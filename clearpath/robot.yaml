@@ -17,6 +17,8 @@ platform:
       parent: rear_bumper_mount
     - name: top_plate
       type: a200.top_plate
+      xyz: [-0.1, 0.0, 0.0]
+      rpy: [0.0, 0.0, 0.0]
 
 manipulators:
   moveit:
