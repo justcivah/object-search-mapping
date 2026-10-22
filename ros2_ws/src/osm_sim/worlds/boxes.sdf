@@ -15,6 +15,7 @@
       <background>0.3 0.7 0.9 1</background>
       <shadows>false</shadows>
       <grid>false</grid>
+      <sky></sky>
     </scene>
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
@@ -231,7 +232,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -275,7 +276,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -319,7 +320,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -363,7 +364,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -407,7 +408,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -451,7 +452,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -495,7 +496,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -539,7 +540,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -583,7 +584,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -627,7 +628,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -671,7 +672,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -715,7 +716,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -759,7 +760,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -803,7 +804,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -847,7 +848,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -891,7 +892,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -935,7 +936,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -979,7 +980,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1023,7 +1024,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1067,7 +1068,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1111,7 +1112,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1155,7 +1156,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1199,7 +1200,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1243,7 +1244,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1287,7 +1288,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1331,7 +1332,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -1375,7 +1376,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -1419,7 +1420,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -1463,7 +1464,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -1507,7 +1508,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1551,7 +1552,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1595,7 +1596,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1639,7 +1640,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1683,7 +1684,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1727,7 +1728,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1771,7 +1772,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -1815,7 +1816,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -1859,7 +1860,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1903,7 +1904,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -1947,7 +1948,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -1991,7 +1992,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2035,7 +2036,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2079,7 +2080,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2123,7 +2124,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2167,7 +2168,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2211,7 +2212,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2255,7 +2256,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2299,7 +2300,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2343,7 +2344,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2387,7 +2388,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2431,7 +2432,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2475,7 +2476,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2519,7 +2520,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2563,7 +2564,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2607,7 +2608,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2651,7 +2652,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2695,7 +2696,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2739,7 +2740,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2783,7 +2784,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2827,7 +2828,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2871,7 +2872,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2915,7 +2916,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2959,7 +2960,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3003,7 +3004,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3047,7 +3048,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3091,7 +3092,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3135,7 +3136,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3179,7 +3180,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3223,7 +3224,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -3267,7 +3268,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -3311,7 +3312,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3355,7 +3356,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3399,7 +3400,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3443,7 +3444,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3487,7 +3488,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3531,7 +3532,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -3575,7 +3576,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3619,7 +3620,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3663,7 +3664,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3707,7 +3708,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3751,7 +3752,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3795,7 +3796,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3839,7 +3840,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3883,7 +3884,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3927,7 +3928,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3971,7 +3972,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4015,7 +4016,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4059,7 +4060,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -4103,7 +4104,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4147,7 +4148,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4191,7 +4192,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4235,7 +4236,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cardboard box/3/files/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4258,9 +4259,9 @@
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>file:///home/ros/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/fire hydrant/3</uri>
+      <uri>model://osm_sim/models/fire_hydrant</uri>
       <name>fire_hydrant</name>
-      <pose>3.34627 -3.68427 0 0 -0 0</pose>
+      <pose>2.87739 -3.67414 -0.111776 0 -0 0</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>-5 -3 10 0 -0 0</pose>
