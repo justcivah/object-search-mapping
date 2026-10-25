@@ -20,6 +20,26 @@ platform:
       xyz: [-0.1, 0.0, 0.0]
       rpy: [0.0, 0.0, 0.0]
 
+  extras:
+    ros_parameters:
+      ekf_node:
+        # wheels: linear velocities only
+        odom0_config: [false, false, false,
+                       false, false, false,
+                       true,  true,  false,
+                       false, false, false,
+                       false, false, false]
+        # imu named imu0 by hand
+        imu0: sensors/imu_0/data
+        imu0_config: [false, false, false,
+                      false, false, false,
+                      false, false, false,
+                      false, false, true,
+                      false, false, false]
+        imu0_differential: false
+        imu0_queue_size: 10
+        imu0_remove_gravitational_acceleration: true
+
 manipulators:
   moveit:
     enable: true
@@ -32,6 +52,14 @@ manipulators:
       port: 10000
 
 sensors:
+  imu:
+    - model: microstrain_imu
+      urdf_enabled: true
+      launch_enabled: true
+      parent: base_link
+      xyz: [0.0, 0.0, 0.1]
+      rpy: [0.0, 0.0, 0.0]
+      
   camera:
     - model: intel_realsense
       urdf_enabled: true
