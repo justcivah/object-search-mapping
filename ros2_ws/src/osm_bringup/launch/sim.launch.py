@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, GroupAction, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
@@ -30,14 +30,30 @@ def generate_launch_description():
         ],
     )
 
-    slam = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            PathJoinSubstitution([FindPackageShare('osm_navigation'), 'launch', 'slam.launch.py'])),
-        launch_arguments=[
-            ('namespace', LaunchConfiguration('namespace')),
-            ('use_sim_time', 'true'),
-        ],
-    )
+    # slam and nav2 both declare 'params_file': scoped groups keep each value
+    # inside its own include (safe here, unlike the clearpath simulation include,
+    # since these launch files have no delayed event handlers)
+    slam = GroupAction([
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                PathJoinSubstitution([FindPackageShare('osm_navigation'), 'launch', 'slam.launch.py'])),
+            launch_arguments=[
+                ('namespace', LaunchConfiguration('namespace')),
+                ('use_sim_time', 'true'),
+            ],
+        ),
+    ])
+
+    nav2 = GroupAction([
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                PathJoinSubstitution([FindPackageShare('osm_navigation'), 'launch', 'nav2.launch.py'])),
+            launch_arguments=[
+                ('namespace', LaunchConfiguration('namespace')),
+                ('use_sim_time', 'true'),
+            ],
+        ),
+    ])
     
     rviz = Node(
         package='rviz2',
@@ -55,5 +71,6 @@ def generate_launch_description():
     ld = LaunchDescription(ARGUMENTS)
     ld.add_action(simulation)
     ld.add_action(slam)
+    ld.add_action(nav2)
     ld.add_action(rviz)
     return ld
