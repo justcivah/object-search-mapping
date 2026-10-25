@@ -33,11 +33,11 @@ ARGUMENTS.append(DeclareLaunchArgument('z', default_value='0.3',
 
 
 def generate_launch_description():
-    # Directories
+    # directories
     pkg_clearpath_gz = get_package_share_directory('clearpath_gz')
     pkg_osm_sim = get_package_share_directory('osm_sim')
 
-    # Paths
+    # paths
     gz_sim_launch = PathJoinSubstitution(
         [pkg_clearpath_gz, 'launch', 'gz_sim.launch.py'])
     robot_spawn_launch = PathJoinSubstitution(
@@ -65,7 +65,6 @@ def generate_launch_description():
             ('generate', LaunchConfiguration('generate'))]
     )
 
-    # Create launch description and add actions
     ld = LaunchDescription(ARGUMENTS)
     ld.add_action(gz_sim)
     ld.add_action(robot_spawn)
