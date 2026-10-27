@@ -232,7 +232,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -276,7 +276,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -320,7 +320,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -364,7 +364,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -408,7 +408,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -452,7 +452,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -496,7 +496,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -540,7 +540,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -584,7 +584,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -628,7 +628,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -672,7 +672,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -716,7 +716,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -760,7 +760,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -804,7 +804,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -848,7 +848,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -892,7 +892,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -936,7 +936,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -980,7 +980,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1024,7 +1024,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1068,7 +1068,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1112,7 +1112,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1156,7 +1156,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1200,7 +1200,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1244,7 +1244,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1288,7 +1288,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1332,7 +1332,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -1376,7 +1376,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -1420,7 +1420,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -1464,7 +1464,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -1508,7 +1508,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1552,7 +1552,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1596,7 +1596,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1640,7 +1640,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1684,7 +1684,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1728,7 +1728,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -1772,7 +1772,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -1816,7 +1816,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -1860,7 +1860,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -1904,7 +1904,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -1948,7 +1948,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -1992,7 +1992,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2036,7 +2036,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2080,7 +2080,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2124,7 +2124,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2168,7 +2168,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2212,7 +2212,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2256,7 +2256,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2300,7 +2300,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2344,7 +2344,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2388,7 +2388,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2432,7 +2432,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2476,7 +2476,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2520,7 +2520,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2564,7 +2564,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2608,7 +2608,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -2652,7 +2652,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2696,7 +2696,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2740,7 +2740,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -2784,7 +2784,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -2828,7 +2828,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -2872,7 +2872,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -2916,7 +2916,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -2960,7 +2960,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3004,7 +3004,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3048,7 +3048,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3092,7 +3092,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3136,7 +3136,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3180,7 +3180,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3224,7 +3224,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -3268,7 +3268,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -3312,7 +3312,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3356,7 +3356,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3400,7 +3400,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.267 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3444,7 +3444,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.259 1.259</scale>
             </mesh>
           </geometry>
@@ -3488,7 +3488,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3532,7 +3532,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.511 1.511 0.6297</scale>
             </mesh>
           </geometry>
@@ -3576,7 +3576,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3620,7 +3620,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3664,7 +3664,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.259 1.007 1.007</scale>
             </mesh>
           </geometry>
@@ -3708,7 +3708,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3752,7 +3752,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -3796,7 +3796,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3840,7 +3840,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3884,7 +3884,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3928,7 +3928,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -3972,7 +3972,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4016,7 +4016,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4060,7 +4060,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.007 0.7556 0.7556</scale>
             </mesh>
           </geometry>
@@ -4104,7 +4104,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4148,7 +4148,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4192,7 +4192,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>1.133 1.133 1.133</scale>
             </mesh>
           </geometry>
@@ -4236,7 +4236,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://osm_sim/models/cardboard_box/meshes/cardboard_box.dae</uri>
+              <uri>model://osm_simulation/models/cardboard_box/meshes/cardboard_box.dae</uri>
               <scale>2.015 1.511 1.511</scale>
             </mesh>
           </geometry>
@@ -4259,7 +4259,7 @@
       <self_collide>false</self_collide>
     </model>
     <include>
-      <uri>model://osm_sim/models/fire_hydrant</uri>
+      <uri>model://osm_simulation/models/fire_hydrant</uri>
       <name>fire_hydrant</name>
       <pose>2.87739 -3.67414 -0.111776 0 -0 0</pose>
     </include>

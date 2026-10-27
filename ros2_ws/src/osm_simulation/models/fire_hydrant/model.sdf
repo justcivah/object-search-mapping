@@ -1,19 +1,19 @@
-<?xml version="1.0"?>
-<sdf version="1.4">
+<?xml version="1.0" ?>
+<sdf version="1.5">
   <model name="fire_hydrant">
     <static>true</static>
     <link name="link">
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://osm_sim/models/fire_hydrant/meshes/fire_hydrant.dae</uri>
+            <uri>model://osm_simulation/models/fire_hydrant/meshes/fire_hydrant.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://osm_sim/models/fire_hydrant/meshes/fire_hydrant.dae</uri>
+            <uri>model://osm_simulation/models/fire_hydrant/meshes/fire_hydrant.dae</uri>
           </mesh>
         </geometry>
       </visual>

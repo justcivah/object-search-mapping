@@ -22,7 +22,7 @@ ARGUMENTS = [
 def generate_launch_description():
     simulation = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            PathJoinSubstitution([FindPackageShare('osm_sim'), 'launch', 'simulation.launch.py'])),
+            PathJoinSubstitution([FindPackageShare('osm_simulation'), 'launch', 'simulation.launch.py'])),
         launch_arguments=[
             ('world', LaunchConfiguration('world')),
             ('use_sim_time', 'true'),

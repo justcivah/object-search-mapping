@@ -11,7 +11,7 @@ ARGUMENTS = [
     DeclareLaunchArgument('rviz', default_value='false',
                           choices=['true', 'false'], description='Start rviz.'),
     DeclareLaunchArgument('world', default_value='boxes',
-                          description='World name: worlds/<world>.sdf in osm_sim'),
+                          description='World name: worlds/<world>.sdf in osm_simulation'),
     DeclareLaunchArgument('setup_path',
                           default_value=[EnvironmentVariable('HOME'), '/clearpath/'],
                           description='Clearpath setup path'),
@@ -35,7 +35,7 @@ ARGUMENTS.append(DeclareLaunchArgument('z', default_value='0.3',
 def generate_launch_description():
     # directories
     pkg_clearpath_gz = get_package_share_directory('clearpath_gz')
-    pkg_osm_sim = get_package_share_directory('osm_sim')
+    pkg_osm_simulation = get_package_share_directory('osm_simulation')
 
     # paths
     gz_sim_launch = PathJoinSubstitution(
@@ -46,7 +46,7 @@ def generate_launch_description():
     gz_sim = IncludeLaunchDescription(
     PythonLaunchDescriptionSource([gz_sim_launch]),
     launch_arguments=[
-        ('world', PathJoinSubstitution([pkg_osm_sim, 'worlds', LaunchConfiguration('world')])),
+        ('world', PathJoinSubstitution([pkg_osm_simulation, 'worlds', LaunchConfiguration('world')])),
         ('setup_path', LaunchConfiguration('setup_path')),
     ]
 )
